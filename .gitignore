@@ -1,0 +1,47 @@
+# ---- Python -------------------------------------------------------------------
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.so
+*.egg
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Installer logs
+pip-log.txt
+
+# ---- FastAPI / General -------------------------------------------------------
+# dotenv environment variables (建議不將敏感資訊上傳到版本控制)
+.env
+.env.*
+
+# ---- IDE / Editor ------------------------------------------------------------
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# ---- macOS -------------------------------------------------------------------
+.DS_Store
+
+# ---- Logs ---------------------------------------------------------------------
+*.log
+
+# ---- Optional: Coverage Reports ----------------------------------------------
+htmlcov/
+.coverage
+.coverage.*
+
+# ---- Optional: mypy, PyTest, etc. --------------------------------------------
+.mypy_cache/
+.pytest_cache/
+get-pip.py
